@@ -3,9 +3,9 @@ const btn = document.getElementById('btn');
 const color = document.querySelector(".color");
 
 btn.addEventListner("click". function() {
-const randomNumber = 2;
+const randomNumber = getRandomNumber();
                     
-document.body.style.backgroundColor = colors[randomNumbers];
+document.body.style.backgroundColor = colors[randomNumber];
 color.textContent = colors[randomNumber];
 });
 
